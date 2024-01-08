@@ -74,3 +74,51 @@ nav h2 {
   border: 2px solid blue;
 }
 /* End of Discount Section */
+
+/* Start of Midnight Party Section */
+.midnight-party {
+  background-color: white;
+  background-image: linear-gradient(
+      to right,
+      hsla(0, 0%, 0%, 0.82),
+      hsla(0, 0%, 0%, 0.223)
+    ),
+    url("/Images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  border-radius: 16px;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+}
+.party-info {
+  width: 700px;
+  margin-top: 126px;
+  margin-left: 126px;
+}
+.party-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.party-info button {
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 32px;
+}
+/* End of Midnight Party Section */
