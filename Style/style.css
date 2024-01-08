@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Merriweather;
+}
+body {
+  max-width: 1440px;
+  margin: 50px auto 0;
+}
+/* Header Banner Style Start */
+header {
+  background-image: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 0%, 0.72),
+      hsla(0, 0%, 0%, 0.42)
+    ),
+    url("/Images/Banner_Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 620px;
+  border-radius: 16px;
+}
+nav {
+  height: inherit;
+}
+nav h3 {
+  color: #fff;
+  padding: 177px 0 16px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+nav h2 {
+  width: 632px;
+  margin: 10px auto;
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
+/* Header Banner Style End */
