@@ -5,10 +5,14 @@
   font-family: Merriweather, Inter;
 }
 body {
-  max-width: 1440px;
   margin: 50px auto 0;
 }
 /* Header Banner Style Start */
+main,
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 header {
   background-image: linear-gradient(
       to bottom,
@@ -343,8 +347,9 @@ img.inbox-mail-icon {
   margin: 22px auto 48px;
 }
 
-.subscribe-form{
+.subscribe-form {
   text-align: center;
+  margin-bottom: 80px;
 }
 .newsletter-container input[type="email"] {
   padding: 25px;
@@ -367,3 +372,32 @@ img.inbox-mail-icon {
   font-weight: 600;
 }
 /* End of Newsletter Section */
+footer {
+  background: #070211;
+  margin-top: 120px;
+  padding: 120px 140px;
+}
+footer p, footer a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  text-decoration: none;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+footer hr{
+  margin: 50px 0 50px;
+  background-color: rgba(255, 255, 255, 0.15);
+  height: 1px;
+  border-style: none;
+}
+.social-media-icons{
+  text-align: center;
+}
+.social-media-icons img{
+  margin: 0 10px 0;
+}
