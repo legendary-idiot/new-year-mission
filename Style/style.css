@@ -222,3 +222,79 @@ nav h2 {
   margin-bottom: 44px;
 }
 /* End of New Best Offer */
+
+/* Start of Holiday Sale Section */
+.holiday-sale-container {
+  margin-top: 120px;
+}
+.holiday-sale-info {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.holiday-sale-info h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-sale-info h2 {
+  margin-top: 16px;
+  margin-bottom: 22px;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-sale-info p {
+  max-width: 1068px;
+  margin: 0 auto;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+/* .column {
+  float: left;
+}
+.surprise-box{
+  width: 45%;
+}
+.discount-box{
+  width: 10%;
+  z-index: 5;
+}
+.discount-box img{
+  border: 10px solid rgb(252, 15, 15);
+  border-radius: 50%;
+}
+.girl-with-bag{
+  width: 45%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+.holiday-sale-banner-container {
+  position: relative;
+}
+.item-pic-1 {
+  position: absolute;
+  z-index: 1;
+  left: 50px;
+}
+.item-pic-2 {
+  position: absolute;
+  left: 1011px;
+}
+.item-pic-3 {
+  position: absolute;
+  right: 275px;
+  top: 75px;
+}
+.item-pic-4 {
+  position: absolute;
+  top: 430px;
+}
